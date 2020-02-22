@@ -1,6 +1,47 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
-  ]
+    "pages/about/about",
+    "pages/fashtion/fashtion",
+    "pages/movie/movie"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#f60",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "知音漫客",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "backgroundColor": "#f60",
+    "color": "#ccc",
+    "selectedColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "食物",
+        "iconPath": "assets/tabbar/zhuye.png",
+        "selectedIconPath": "assets/tabbar/zhuye_1.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "喜欢",
+        "iconPath": "assets/tabbar/xihuan.png",
+        "selectedIconPath": "assets/tabbar/xihuan_1.png"
+      },
+      {
+        "pagePath": "pages/fashtion/fashtion",
+        "text": "时尚",
+        "iconPath": "assets/tabbar/xingxing.png",
+        "selectedIconPath": "assets/tabbar/xingxing_1.png"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "知识",
+        "iconPath": "assets/tabbar/zhishi.png",
+        "selectedIconPath": "assets/tabbar/zhishi_1.png"
+      }
+    ]
+  }
 }
