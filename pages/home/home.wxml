@@ -1,4 +1,9 @@
 <!--pages/home/home.wxml-->
-<text class="title">主页</text>
-<button size="mini">按钮</button>
+
+<button size="mini">首页</button>
+<button size="mini">周边</button>
+<button size="mini">电影</button>
+<button size="mini">新闻</button>
+<button size="mini">更多</button>
 <image src="https://www.zymk.cn/static/images/default/index_author_reward.jpg"></image>
+<view>知识点2</view>
