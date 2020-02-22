@@ -1,0 +1,4 @@
+<!--pages/home/home.wxml-->
+<text class="title">主页</text>
+<button size="mini">按钮</button>
+<image src="https://www.zymk.cn/static/images/default/index_author_reward.jpg"></image>
